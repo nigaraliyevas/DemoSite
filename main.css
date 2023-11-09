@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body {}
+
+.header {
+    background: #000;
+    height: 80vh;
+}
+
+.header__left-size-title {
+    padding: 1rem;
+}
+
+.header__area {}
+
+.header__area-row {
+    align-items: center;
+    margin-top: 12vh;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.row__item {
+    padding: 1.5rem;
+}
+.row__figure{
+    width: 270px;
+}
+.header__master-fullname {}
+
+.header__master_subtitle {
+    text-align: center;
+}
+
+.header__master-job {
+    font-size: 2.3rem;
+}
+
+#header__portfolio-title {
+    padding: 1.3rem;
+    margin: 1.3rem;
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header__master-fullname {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: .7rem;
+}
+
+.header__master-job {
+    color: white;
+    text-align: center;
+}
+.header__down_icon{
+    text-align: center;
+}
+.fa-solid{
+    font-weight: 900;
+    font-size: 35px;
+}
+.header__social-media{
+background-color: #961D1D;
+margin-top: 12vh;
+padding: 45px;
+}
+.social-meadia-area__list{
+    display: flex;
+    justify-content:center;
+}
+.social-media-area__item{
+    list-style: none;
+    
+}
+.social-media-area__link{
+    text-decoration: none;
+    
+}
+.fa-brands{
+    font-size: 35px;
+    padding-right: 50px;
+}
